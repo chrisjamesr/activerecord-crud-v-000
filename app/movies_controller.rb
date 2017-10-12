@@ -23,7 +23,7 @@ def can_be_created_in_a_block(title, year)
 end
 
 def can_get_the_first_item_in_the_database
-  __
+  movie.first
 end
 
 def can_get_the_last_item_in_the_database
